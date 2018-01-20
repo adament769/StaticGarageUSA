@@ -1,0 +1,156 @@
+body
+{
+	background: white;
+	font-family: sans-serif;
+
+}
+#youtube{
+	position: fixed;
+	visibility: visible;
+	left: 5px;
+	top: 5px;
+	z-index: 300;
+}
+#instagram{
+	position: fixed;
+	visibility: visible;
+	left: 35px;
+	top: 5px;
+	z-index: 300;
+}
+#twitter{
+	position: fixed;
+	visibility: visible;
+	left: 65px;
+	top: 5px;
+	z-index: 300;
+}
+#email{
+	position: fixed;
+	visibility: visible;
+	left: 95px;
+	top: 5px;
+	z-index: 300;
+}
+#logo{
+	position: fixed;
+	visibility: visible;
+	align-content: center;
+	top: 5px;
+	left: 550px;
+	z-index: 300;
+}
+#about{
+	position: fixed;
+	visibility: visible;
+	top: 120px;
+	left: 250px;
+	
+}
+#gallery{
+	position: fixed;
+	visibility: visible;
+	top: 120px;
+	left: 370px;
+	
+}
+#community{
+	position: fixed;
+	visibility: visible;
+	top: 120px;
+	left: 500px;
+}
+#store{
+	position: fixed;
+	visibility: visible;
+	top: 120px;
+	left: 650px;
+}
+#member{
+	position: fixed;
+	visibility: visible;
+	top: 120px;
+	left: 820px;
+}
+#login{
+	position: fixed;
+	visibility: visible;
+	top: 10px;
+	right: 150px;
+}
+#register{
+	position: fixed;
+	visibility: visible;
+	top: 10px;
+	right: 10px;
+}
+#input{
+    position: fixed;
+	visibility: visible;
+	top: 200px;
+	left: 520px;
+}
+#inputRegister
+{
+	position: fixed;
+	visibility: visible;
+	top: 200px;
+	left: 520px;
+}
+.shiftDown{
+	padding: 70px 0;
+    border: 1px;
+    text-align: center;
+    margin-top: 200px;
+	background-image: url(car1.jpg);
+}
+.whiteButton{
+	background-color: white;
+	text-align: center;
+	color:black;
+	font-size: 15px;
+	padding: 15px 32px;
+	border: 0px;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+.redButton{
+	background-color: red;
+	text-align: center;
+	color:black;
+	font-size: 15px;
+	padding: 15px 32px;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+.redButtonHov:hover{
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	 background-color: black;
+	 color: red;
+}
+.blackButton{
+	background-color: black;
+	color:red;
+	text-align: center;
+	font-size: 15px;
+	padding: 15px 32px;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+.blackButtonHov:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: red;
+    color: black;
+}
+
+@font-face{
+    font-family: alexandra;
+    src: url('Alexanda_Personal_Use.ttf') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
