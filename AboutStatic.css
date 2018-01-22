@@ -3,7 +3,6 @@ body
 	background-color: white;
 }
 #youtube{
-	position: fixed;
 	visibility: visible;
 	left: 5px;
 	top: 5px;
@@ -129,7 +128,7 @@ body
 	visibility: visible;
 	top: 250px;
 	color: rgb(270,160,122);
-	align-content: center;
+	text-align: center;
 }
 #BryceBio{
 	position: fixed;
