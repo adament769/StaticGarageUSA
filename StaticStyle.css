@@ -2,42 +2,30 @@ body
 {
 	background: white;
 	font-family: sans-serif;
-
 }
-#youtube{
-	position: fixed;
-	visibility: visible;
-	left: 5px;
-	top: 5px;
-	z-index: 300;
+.wrapperLink
+{
+	overflow: auto;
+	width: 250px;
 }
-#instagram{
-	position: fixed;
-	visibility: visible;
-	left: 35px;
-	top: 5px;
-	z-index: 300;
+.wrapperButton
+{
+	overflow: auto;
+	width: 700px;
 }
-#twitter{
-	position: fixed;
-	visibility: visible;
-	left: 65px;
-	top: 5px;
-	z-index: 300;
+.posFloat
+{
+	float: left;
+	margin-right: 5px;
 }
-#email{
-	position: fixed;
-	visibility: visible;
-	left: 95px;
-	top: 5px;
-	z-index: 300;
+.posFloatButton
+{
+	float: left;
+	margin-right: 5px;
 }
 #logo{
-	position: fixed;
 	visibility: visible;
 	align-content: center;
-	top: 5px;
-	left: 550px;
 	z-index: 300;
 }
 #about{
