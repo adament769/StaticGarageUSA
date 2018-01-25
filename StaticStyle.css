@@ -7,12 +7,12 @@ body
 .wrapperLink
 {
 	overflow: auto;
-	width: 250px;
+	width: 2000px;
 }
 .wrapperButton
 {
 	overflow: auto;
-	width: 700px;
+	width: 915px;
 }
 .posFloat
 {
@@ -23,6 +23,11 @@ body
 {
 	float: left;
 	margin-right: 5px;
+}
+.longPosFloat
+{
+	float: left;
+	margin-right: 200px;
 }
 #logo{
 	visibility: visible;
