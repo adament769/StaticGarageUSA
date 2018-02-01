@@ -29,76 +29,16 @@ body
 	float: left;
 	margin-right: 200px;
 }
-#logo{
-	visibility: visible;
-	align-content: center;
-	z-index: 300;
-}
-#about{
-	position: fixed;
-	visibility: visible;
-	top: 120px;
-	left: 250px;
-	
-}
-#gallery{
-	position: fixed;
-	visibility: visible;
-	top: 120px;
-	left: 370px;
-	
-}
-#community{
-	position: fixed;
-	visibility: visible;
-	top: 120px;
-	left: 500px;
-}
-#store{
-	position: fixed;
-	visibility: visible;
-	top: 120px;
-	left: 650px;
-}
-#member{
-	position: fixed;
-	visibility: visible;
-	top: 120px;
-	left: 820px;
-}
-#login{
-	position: fixed;
-	visibility: visible;
-	top: 10px;
-	right: 150px;
-}
-#register{
-	position: fixed;
-	visibility: visible;
-	top: 10px;
-	right: 10px;
-}
-#input{
-    position: fixed;
-	visibility: visible;
-	top: 200px;
-	left: 520px;
-}
-#inputRegister
+.shiftDown
 {
-	position: fixed;
-	visibility: visible;
-	top: 200px;
-	left: 520px;
-}
-.shiftDown{
 	padding: 70px 0;
     border: 1px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 10px;
 	background-image: url(car1.jpg);
 }
-.whiteButton{
+.whiteButton
+{
 	background-color: white;
 	text-align: center;
 	color:black;
@@ -108,7 +48,8 @@ body
 	-webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
-.redButton{
+.redButton
+{
 	background-color: red;
 	text-align: center;
 	color:black;
@@ -117,12 +58,14 @@ body
 	-webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
-.redButtonHov:hover{
+.redButtonHov:hover
+{
 	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 	 background-color: black;
 	 color: red;
 }
-.blackButton{
+.blackButton
+{
 	background-color: black;
 	color:red;
 	text-align: center;
@@ -131,10 +74,68 @@ body
 	-webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
-.blackButtonHov:hover{
+.blackButtonHov:hover
+{
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: red;
     color: black;
+}
+.column
+{
+	float: left;
+	width: 30%;
+	padding: 15px;
+	margin-top: 15px;
+	text-align: center;
+	background-color: #33DC76;
+}
+.columnFourth
+{
+	float: left;
+	width: 22%;
+	padding: 15px;
+	margin-top: 30px;
+	text-align: center;
+	background-color: #DC7633;
+}
+.columnHalf
+{
+	float: left;
+	width: 47%;
+	padding: 15px;
+	margin-top: 30px;
+	text-align: center;
+	background-color: #44DC33;
+
+}
+.columnThreeFourth
+{
+	float: left;
+	width: 70%;
+	padding: 15px;
+	margin-top: 30px;
+	text-align: center;
+	background-color: #DCCB33
+
+}
+.footer
+{
+	padding: 20px;
+	text-align: center;
+	margin-top : 20px;
+	background-color: #33DCCB;
+}
+.header
+{
+	padding: 20px;
+	text-align: center;
+	margin-top : 20px;s
+}
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 @font-face{
