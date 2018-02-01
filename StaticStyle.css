@@ -88,6 +88,8 @@ body
 	margin-top: 15px;
 	text-align: center;
 	background-color: #33DC76;
+	border-width: 1px;
+	border-style: solid;
 }
 .columnFourth
 {
@@ -97,6 +99,8 @@ body
 	margin-top: 30px;
 	text-align: center;
 	background-color: #DC7633;
+	border-width: 1px;
+	border-style: solid;
 }
 .columnHalf
 {
@@ -106,6 +110,8 @@ body
 	margin-top: 30px;
 	text-align: center;
 	background-color: #44DC33;
+	border-width: 1px;
+	border-style: solid;
 
 }
 .columnThreeFourth
@@ -116,6 +122,8 @@ body
 	margin-top: 30px;
 	text-align: center;
 	background-color: #DCCB33
+	border-width: 1px;
+	border-style: solid;
 
 }
 .footer
