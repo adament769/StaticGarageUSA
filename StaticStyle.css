@@ -2,7 +2,7 @@
 body
 {
 	background: white;
-	font-family: sans-serif;
+	font-family: impact;
 }
 .wrapperLink
 {
@@ -45,7 +45,7 @@ body
 	font-size: 15px;
 	padding: 15px 32px;
 	border: 0px;
-	-webkit-transition-duration: 0.4s; 
+	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 .redButton
@@ -55,7 +55,7 @@ body
 	color:black;
 	font-size: 15px;
 	padding: 15px 32px;
-	-webkit-transition-duration: 0.4s; 
+	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 .redButtonHov:hover
@@ -71,7 +71,7 @@ body
 	text-align: center;
 	font-size: 15px;
 	padding: 15px 32px;
-	-webkit-transition-duration: 0.4s; 
+	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 .blackButtonHov:hover
@@ -139,18 +139,34 @@ body
 	text-align: center;
 	margin-top : 20px;s
 }
-.row:after 
+.row:after
 {
     content: "";
     display: table;
     clear: both;
 }
-
-@font-face{
-    font-family: alexandra;
-    src: url('Alexanda_Personal_Use.ttf') ;
-    font-weight: normal;
-    font-style: normal;
+input[type=text],input[type=password]{
+	width: 75%;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 20px;
+	border-bottom: 3px light;
+	border-top: none;
+	border-left: none;
+	border-right: none;
 }
 
+button[type=submit]{
+	border-radius: 50%;
+	background-color: red;
+	font-size: 30px;
+	padding: 20px;
+	color: white;
+	border:solid black;
+}
 
+label
+{
+	font-size: 30px;
+}
